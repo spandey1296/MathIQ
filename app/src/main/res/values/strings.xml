@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MathIQ</string>
+
+    <string name="play">Play</string>
+    <string name="score">Score</string>
+    <string name="personal_best">Personal best:</string>
+    <string name="best">best</string>
+    <string name="todo">TODO</string>
+
+
+    <string name="_7">7</string>
+
+
+</resources>

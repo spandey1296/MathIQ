@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/math_games"
+        android:layout_marginBottom="40dp"
+        android:contentDescription="@string/todo" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/play"
+        android:layout_marginBottom="10dp"
+        android:onClick="startGame"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/play"
+        android:textColor="#550000"
+        android:textSize="26sp"/>
+
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:layout_marginTop="190sp"
+        android:layout_marginBottom="10sp"
+        android:text="                             Developed By Shivant Kumar Pandey \n \n                                         Founder:coder2hacker" />
+
+
+</LinearLayout>
